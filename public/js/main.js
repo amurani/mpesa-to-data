@@ -1,7 +1,7 @@
 var _uuid = uuid.v1();
 document.querySelector('#session-code').innerText = '... loading code ...';
 
-var host = location.origin.replace(/http[s]*/, 'ws');
+var host = location.origin.replace(/http/, 'ws');
 var webSocket = new WebSocket(host);
 
 webSocket.onopen = function(event) {
