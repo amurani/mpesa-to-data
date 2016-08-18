@@ -1,0 +1,25 @@
+{
+  "name": "mpesa-to-data",
+  "version": "1.0.0",
+  "description": "Node JS server that recieves MPESA texts from an mobile app (Android) and serves out formatted data",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/amurani/mpesa-to-data.git"
+  },
+  "author": "K. Murani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amurani/mpesa-to-data/issues"
+  },
+  "homepage": "https://github.com/amurani/mpesa-to-data#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "node-cache": "^3.2.1",
+    "ws": "^1.1.1"
+  }
+}
