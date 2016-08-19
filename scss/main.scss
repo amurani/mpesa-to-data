@@ -1,10 +1,12 @@
 html {
-  height: 100%; }
+  height: 100%;
+}
 
 body {
   background-color: #f2f2f2;
-  font-family: sans-serif; }
-  body #session-code {
+  font-family: sans-serif;
+
+  #session-code {
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -12,18 +14,26 @@ body {
     display: inline-block;
     font-weight: 300;
     padding: 10px 20px;
-    margin: 0; }
-  body form label {
+    margin: 0;
+  }
+
+  form label {
     display: block;
     line-height: 1em;
-    padding: 5px; }
-  body a#download {
+    padding: 5px;
+  }
+
+  a#download {
     background-color: #317dd3;
     border-radius: 3px;
     color: #fff;
     display: inline-block;
     padding: 10px 20px;
     margin: 10px 0;
-    text-decoration: none; }
-    body a#download:hover {
-      background-color: #31a8e6; }
+    text-decoration: none;
+
+    &:hover {
+      background-color: #31a8e6;
+    }
+  }
+}
